@@ -1,0 +1,42 @@
+.TitleContainer{
+ text-align: center;
+    line-height: 0.5;
+
+}
+.IconWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+
+}
+.IconWrapper div .icon{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+
+  
+}
+.IconWrapper span{
+    display: inline-block;
+    margin-top: 5px;
+}
+.crown ,.star,.percent{
+    width: 20px;
+    height: 20px;
+}
+.crown{
+    background-color: #c5beff;
+    
+
+}
+.star{
+    background-color: #d8ff7f;
+
+}
+.percent{
+background-color: #ffc1be;
+}
